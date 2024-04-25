@@ -51,13 +51,6 @@ li {
     }
 }
 
-header {
-    padding-top: 0;
-    display: inline-block;
-    margin-bottom: 50px;
-    width: 100%;
-}
-
 footer {
     position: fixed;
     bottom: 0;
