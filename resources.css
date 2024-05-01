@@ -3,7 +3,7 @@ main {
 }
 
 section {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 ul>li {
     padding: 10px;
@@ -26,19 +26,38 @@ li {
 
 #large-image {
     width: 100%;
-    height: 500;
+    height: 700px;
 }
 
 @media (min-width: 1670px) {
 
-    div {
+    #left {
         display: inline-block;
-        width: 37.5%;
+        width: 55%;
+    }
+
+    #right {
+        display: inline-block;
+        width: 33%;
     }
 
     div > p {
         text-align: left;
         margin-left: 50px;
+    }
+
+    .box-links{
+        width: 200px;
+        height: 50px;
+        background-color: yellow;
+        padding: 10px;
+        margin: 10px;
+        margin-right: 120px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        float: right;
     }
 }
 
@@ -53,27 +72,26 @@ li {
         text-align: left;
         margin-left: 50px;
     }
+
+    .box-links{
+        width: 200px;
+        height: 50px;
+        background-color: yellow;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 200px;
+        margin-right: 140px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        float: center;
+    }
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+#box{
+    height: 100px;
 }
-
-.box-links{
-    width: 200px;
-    height: 50px;
-    background-color: yellow;
-    padding: 10px;
-    margin: 10px;
-    margin-left: 200px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 5%;
-}
-
 a {
     text-decoration: none;
     color: blue;
