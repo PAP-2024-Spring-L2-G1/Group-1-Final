@@ -1,88 +1,101 @@
-html{
+html {
     height: 100%;
 }
 
 body {
     margin: 0;
-    min-height: 100%;
-    font-family: system-ui, sans-serif;
     font-size: 1.15rem;
     line-height: 1.5;
-    background: #4f94aa url('images/bg-carolina-cagigas.jpg') center center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
     text-align: center;
-    font-family: 'Pacifico', cursive;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 4rem;
-    text-shadow: 0 0 20px #04305b;
+    height: 100%;
 }
 
 main {
-    width: 1120px;
-    margin-inline: auto;
+    height: 100%;
 }
 
-div {
+
+/* Nav Bar & Footer START*/
+header {
+    padding-top: 0;
+}
+
+nav{
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: left;
+    background-color: #588157;
+}
+
+#nav-logo {
+    width: 150px;
+}
+
+#menu {
+    margin: 0 0 0 40px;
+    padding:0;
     display: inline-block;
-    margin: 25px;
-    width: 320px;
-    height: 320px;
-    background-color: #7bc9d0;
-    box-shadow: 0 0 15px #0e5b8f;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    vertical-align: middle;
+    list-style-type: none;
+    letter-spacing: .75px;
+    word-spacing: 1px;
 }
 
-a {
-    display: block;
-    margin: auto;
-    margin-top: 35%;
-    padding: 5% 10%;
-    width: fit-content;
-    border-radius: 10px;
-    background-color: #010c45;
-    color: white;
-    font-size: 1.5em;
+#menu > li {
+    margin: 0 10px;
+    padding: 0;
+    display: inline-block;
+
+}
+
+#menu > li > a{
+    color: black;
     text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
 }
 
-a:hover {
-    color: #010c45;
-    background-color: #7bc9d0;
+nav {
+    position: relative;
 }
 
-#bahamas {
-    background-image: url('images/bahamas-fernando-jorge.jpg');
+#menu > li > .color {
+    color: #DAD7CD;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
 }
 
-#alaska {
-    background-image: url('images/alaska.jpg');
+#menu > li > a:hover {
+    color: #DAD7CD;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
 }
 
-#norway {
-    background-image: url('images/norway.jpg');
+footer {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
 }
 
-#medit {
-    background-image: url('images/mediterranean.jpg');
+/* Nav Bar & Footer END*/
+
+
+/* Text START*/
+p {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#baltic {
-    background-image: url('images/baltic.jpg');
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-#japan {
-    background-image: url('images/japan.jpg');
-}
-
-/* ============ Student code ============= */
+/* Text END*/
