@@ -1,0 +1,38 @@
+main {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.people {
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+    width: 430px;
+}
+
+.people {
+    text-align: left;
+}
+
+#containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1670px) {
+
+    #containers {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
