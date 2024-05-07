@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: center;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+
+/* Nav Bar & Footer START*/
+header {
+    padding-top: 0;
+}
+
+nav{
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: left;
+    background-color: #588157;
+}
+
+#nav-logo {
+    width: 150px;
+}
+
+#menu {
+    margin: 0 0 0 40px;
+    padding:0;
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+    letter-spacing: .75px;
+    word-spacing: 1px;
+}
+
+#menu > li {
+    margin: 0 10px;
+    padding: 0;
+    display: inline-block;
+
+}
+
+#menu > li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+nav {
+    position: relative;
+}
+
+#menu > li > .color {
+    color: #DAD7CD;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#menu > li > a:hover {
+    color: #DAD7CD;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* Nav Bar & Footer END*/
+
+
+/* Text START*/
+p {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Text END*/
