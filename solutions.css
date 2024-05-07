@@ -15,7 +15,7 @@ div {
     width: 40%;
     display: inline-block;
     margin: 0px;
-    height: 200px;
+    height: auto;
     margin-left: 30px; 
     
     
@@ -26,8 +26,7 @@ div {
     display: inline-block;
     margin: 0px;
     margin-left: 100px;
-    height: 200px;
-    
+    height: auto;    
     
     
     
@@ -37,7 +36,7 @@ div {
     width: 40%;
     display: inline-block;
     margin: 0px;
-    height: 200px;
+    height: auto;
     margin-left: 30px;
     margin-top: 150px;
     
@@ -46,15 +45,43 @@ div {
     width: 40%;
     display: inline-block;
     margin: 0px;
-    height: 200px;
+    height: auto;
     margin-left: 100px;
     margin-top: 150px;
     
 }
-button {
+.button {
     background-color: #3397ff;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #3397ff;
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: inline-block;
     color: white;
-
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    width: 130px;
+}
+a:hover {
+    color:#3397ff;
+}
+.button:hover {
+    background-color: white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+nav {
+    text-align: center;
 }
 
 
