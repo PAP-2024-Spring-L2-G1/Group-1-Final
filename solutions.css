@@ -1,10 +1,13 @@
-
-
 h1 {
     margin-top: 60px;
     margin-left: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
+}
+body {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: left;
+    height: 100%;
 }
 div {
      box-sizing: border-box;
@@ -27,9 +30,6 @@ div {
     margin: 0px;
     margin-left: 100px;
     height: auto;    
-    
-    
-    
     
 }
 #card3 {
@@ -59,12 +59,12 @@ div {
     height: 40px;
     padding-top: 10px;
     border-radius: 6px;
-    border: 1px solid black;
     display: inline-block;
     color: white;
     text-decoration: none;
 }
 a {
+    font-size: initial;
     text-decoration: none;
     width: 130px;
 }
@@ -75,12 +75,6 @@ a:hover {
     background-color: white;
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-nav {
     text-align: center;
 }
 

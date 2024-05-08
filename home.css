@@ -20,12 +20,20 @@ h3 {
     
     
 }
+body {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: left;
+    height: 100%;
+}
 a {
     text-decoration: none;
     color: white;
 
 
 }
+
 a:hover {
     color:#3397ff;
 }
@@ -42,5 +50,8 @@ a:hover {
 }
 section {
     padding: 150px; 
+}
+footer {
+    text-align: center;
 }
 
