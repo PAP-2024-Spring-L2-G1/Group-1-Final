@@ -67,6 +67,19 @@ ul {
         position: relative;
         float: right;
     }
+    .box-links{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(63, 156, 243);
+        padding: 10px;
+        margin: 10px;
+        margin-right: 120px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        float: right;
+    }
 }
 
 @media (max-width: 1670px) {
@@ -118,6 +131,9 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+footer {
+    text-align: center;
 }
 footer {
     text-align: center;
